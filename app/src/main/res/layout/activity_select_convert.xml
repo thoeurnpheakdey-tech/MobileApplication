@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#0FA8B8"
+    tools:context=".currencyconverter.SelectConvert">
+
+    <Button
+        android:id="@+id/convertRielToUSD"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginRight="8dp"
+        android:onClick="convertRielToUSD"
+        android:text="@string/btn_kh"
+        android:textSize="20dp" />
+
+    <Button
+        android:layout_below="@+id/convertRielToUSD"
+        android:id="@+id/btn_usd_kh"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:textSize="20dp"
+        android:text="@string/btn_us"
+        android:layout_centerHorizontal="true"
+        android:onClick="convertUSDToRiel"/>
+    <Button
+        android:layout_below="@+id/btn_usd_kh"
+        android:id="@+id/btn_eu_kh"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:background="@color/orange"
+        android:textSize="20dp"
+        android:text="@string/btn_eu"
+        android:layout_centerHorizontal="true"
+        android:onClick="convertEUToRiel"/>
+    <Button
+        android:layout_below="@+id/btn_eu_kh"
+        android:id="@+id/btn_kh_eu"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:background="@color/orange"
+        android:layout_marginTop="30dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:textSize="20dp"
+        android:text="@string/btn_kh_eu"
+        android:layout_centerHorizontal="true"
+        android:onClick="convertRielToEu"/>
+
+</RelativeLayout>

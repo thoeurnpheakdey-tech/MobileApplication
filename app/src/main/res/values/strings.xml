@@ -1,3 +1,22 @@
 <resources>
-    <string name="app_name">MSITAEUapp</string>
+    <string name="app_name">AEUMasterMobile</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Homework</string>
+    <string name="nav_header_subtitle">MSIT AEU university</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="menu_home">Home</string>
+    <string name="menu_gallery">Layout</string>
+    <string name="menu_slideshow">Slideshow</string>
+
+    <string name="txt_life_cycle">Activity Life Cycle show on console</string>
+    <string name="btn_go">Go Intent</string>
+    <string name="btn_kh">khmer to USD</string>
+    <string name="btn_us">USD to Khmer</string>
+    <string name="btn_eu">Euro to Khmer</string>
+    <string name="btn_kh_eu">Khmer to Euro</string>
+    <string name="btn_intent">Intent Activity</string>
+
 </resources>
