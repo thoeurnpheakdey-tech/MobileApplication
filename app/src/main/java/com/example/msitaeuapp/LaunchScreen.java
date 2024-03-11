@@ -19,7 +19,7 @@ public class LaunchScreen extends AppCompatActivity {
         new Handler().postDelayed(new Runnable() {
             @Override
             public void run() {
-                startActivity(new Intent(LaunchScreen.this, SelectConvert.class));
+                startActivity(new Intent(LaunchScreen.this, MenuApp.class));
                 finish();
             }
         },2000);
