@@ -5,8 +5,16 @@
     android:id="@+id/main"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#FFFFFF"
+    android:background="#10809C"
     tools:context=".currencyconverter.SelectConvert">
+
+    <ImageView
+        android:id="@+id/photo"
+        android:layout_width="1080px"
+        android:layout_height="2400px"
+        android:layout_marginTop="0dp"
+        android:gravity="center"
+        android:src="@drawable/dinosour2" />
 
     <Button
         android:id="@+id/convertRielToUSD"
@@ -40,7 +48,7 @@
         android:layout_marginTop="30dp"
         android:layout_marginLeft="8dp"
         android:layout_marginRight="8dp"
-        android:background="@color/orange"
+        android:background="#EDEFF1"
         android:textSize="20dp"
         android:text="@string/btn_eu"
         android:layout_centerHorizontal="true"

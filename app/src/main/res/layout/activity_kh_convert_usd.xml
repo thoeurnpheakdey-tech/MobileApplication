@@ -36,9 +36,9 @@
         android:layout_below="@+id/btn_kh_usd"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Result"
+        android:text="Converted"
         android:layout_centerHorizontal="true"
-        android:textSize="20dp"
-        android:textColor="@color/orange"/>
+        android:textSize="25dp"
+        android:textColor="#10809C"/>
 
 </RelativeLayout>
