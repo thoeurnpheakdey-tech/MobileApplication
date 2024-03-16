@@ -13,6 +13,12 @@
         android:theme="@style/Theme.MSITAEUapp"
         tools:targetApi="31">
         <activity
+            android:name=".DashboardMenu"
+            android:exported="false" />
+        <activity
+            android:name=".Dashboard"
+            android:exported="false" />
+        <activity
             android:name=".Item"
             android:exported="false" />
         <activity

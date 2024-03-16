@@ -5,7 +5,7 @@
     android:id="@+id/main"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#0FA8B8"
+    android:background="#FFFFFF"
     tools:context=".currencyconverter.SelectConvert">
 
     <Button
@@ -45,18 +45,19 @@
         android:text="@string/btn_eu"
         android:layout_centerHorizontal="true"
         android:onClick="convertEUToRiel"/>
+
     <Button
-        android:layout_below="@+id/btn_eu_kh"
         android:id="@+id/btn_kh_eu"
         android:layout_width="match_parent"
         android:layout_height="80dp"
-        android:background="@color/orange"
-        android:layout_marginTop="30dp"
-        android:layout_marginLeft="8dp"
-        android:layout_marginRight="8dp"
-        android:textSize="20dp"
-        android:text="@string/btn_kh_eu"
+        android:layout_below="@+id/btn_eu_kh"
         android:layout_centerHorizontal="true"
-        android:onClick="convertRielToEu"/>
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginRight="8dp"
+        android:background="@color/orange"
+        android:onClick="convertRielToEu"
+        android:text="@string/btn_kh_eu"
+        android:textSize="20dp" />
 
 </RelativeLayout>

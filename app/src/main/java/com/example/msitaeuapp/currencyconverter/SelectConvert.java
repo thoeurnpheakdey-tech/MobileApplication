@@ -45,7 +45,7 @@ public class SelectConvert extends AppCompatActivity {
             }
         });
 
-        Button btnkheuro = (Button)findViewById(R.id.btn_eu_kh);
+        Button btnkheuro = (Button)findViewById(R.id.btn_kh_eu);
         btnkheuro.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
